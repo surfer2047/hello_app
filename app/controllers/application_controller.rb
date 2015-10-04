@@ -5,9 +5,14 @@ class ApplicationController < ActionController::Base
   
   def index
   	
-  	render text: "Hello world"
+  	render text: "¡Hola, mundo!"
 
   end
+
+  def goodbye
+  	render text: "goodbye world!"
+  end
+
 
 
 end
